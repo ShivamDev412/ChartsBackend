@@ -1,0 +1,30 @@
+const SankeyChartData = {
+  nodes: [
+    { id: "Users" },
+    { id: "Browse Restaurants" },
+    { id: "Select Restaurant" },
+    { id: "Place Order" },
+    { id: "Payment Gateway" },
+    { id: "Order Confirmed" },
+    { id: "Restaurant Prepares" },
+    { id: "Out for Delivery" },
+    { id: "Delivered" },
+    { id: "User Feedback" },
+    { id: "Positive Reviews" },
+    { id: "Negative Reviews" },
+  ],
+  links: [
+    { source: "Users", target: "Browse Restaurants", value: 1000 },
+    { source: "Browse Restaurants", target: "Select Restaurant", value: 800 },
+    { source: "Select Restaurant", target: "Place Order", value: 700 },
+    { source: "Place Order", target: "Payment Gateway", value: 700 },
+    { source: "Payment Gateway", target: "Order Confirmed", value: 650 },
+    { source: "Order Confirmed", target: "Restaurant Prepares", value: 650 },
+    { source: "Restaurant Prepares", target: "Out for Delivery", value: 640 },
+    { source: "Out for Delivery", target: "Delivered", value: 630 },
+    { source: "Delivered", target: "User Feedback", value: 500 },
+    { source: "User Feedback", target: "Positive Reviews", value: 400 },
+    { source: "User Feedback", target: "Negative Reviews", value: 100 },
+  ],
+};
+export { SankeyChartData };
