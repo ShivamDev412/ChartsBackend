@@ -4,4 +4,7 @@ import ENDPOINTS from "../utils/Endpoints";
 const routes = express.Router();
 const chartController = new ChartController();
 routes.get(ENDPOINTS.SANKEY, chartController.getSankeyChart);
+routes.get(ENDPOINTS.DONUT, chartController.getDonutChart);
+routes.get(ENDPOINTS.WORD_CLOUD, chartController.getWordCloud);
+routes.get(ENDPOINTS.STREAM_GRAPH, chartController.getStreamGraph);
 export default  routes;
