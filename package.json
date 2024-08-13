@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx nodemon",
-    "start": "npm run build && node build/index.js"
+    "build": "npm run clean && tsc && npx prisma generate",
+    "start": "node build/index.js",
+    "dev": "npx nodemon"
   },
   "keywords": [],
   "author": "",
