@@ -13,5 +13,5 @@ app.use(cors());
 app.use(BASE_ROUTE, chartsRoutes);
 app.listen(4000, () => {
   console.clear();
-  console.log(`Server running on port ${process.env.PORT}`);
+  console.log(`Server running on port 4000`);
 });
