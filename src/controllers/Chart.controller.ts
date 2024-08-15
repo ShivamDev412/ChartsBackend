@@ -47,5 +47,25 @@ class ChartController {
       res.status(500).send({ message: "Internal server error" });
     }
   }
+  getLineChart(req: Request, res: Response) {
+    try {
+      res.status(200).send({
+        success: true,
+        data: StreamGraphData,
+      });
+    } catch (error) {
+      res.status(500).send({ message: "Internal server error" });
+    }
+  }
+  getViolinChart(req: Request, res: Response) {
+    try {
+      res.status(200).send({
+        success: true,
+        data: StreamGraphData,
+      });
+    } catch (error) {
+      res.status(500).send({ message: "Internal server error" });
+    }
+  }
 }
 export default ChartController;

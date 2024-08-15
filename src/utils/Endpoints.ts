@@ -4,5 +4,7 @@ const ENDPOINTS = {
     DONUT: '/donut',
     WORD_CLOUD: '/word-cloud',
     STREAM_GRAPH: '/stream-graph',
+    VIOLIN: '/violin',
+    LINE: '/line'
 }
 export default ENDPOINTS;
