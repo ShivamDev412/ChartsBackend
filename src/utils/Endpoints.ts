@@ -3,7 +3,7 @@ const ENDPOINTS = {
     SANKEY: '/sankey',
     DONUT: '/donut',
     WORD_CLOUD: '/word-cloud',
-    STREAM_GRAPH: '/stream-graph',
+    STACKED: '/stacked-area',
     VIOLIN: '/violin',
     LINE: '/line'
 }

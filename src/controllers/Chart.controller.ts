@@ -37,7 +37,7 @@ class ChartController {
       res.status(500).send({ message: "Internal server error" });
     }
   }
-  getStreamGraph(req: Request, res: Response) {
+  getStackedGraph(req: Request, res: Response) {
     try {
       res.status(200).send({
         success: true,
