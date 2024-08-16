@@ -8,5 +8,5 @@ routes.get(ENDPOINTS.DONUT, chartController.getDonutChart);
 routes.get(ENDPOINTS.WORD_CLOUD, chartController.getWordCloud);
 routes.get(ENDPOINTS.STACKED, chartController.getStackedGraph);
 routes.get(ENDPOINTS.LINE, chartController.getLineChart);
-routes.get(ENDPOINTS.VIOLIN, chartController.getViolinChart);
+routes.get(ENDPOINTS.SCATTER_PLOT, chartController.getScatterPlot);
 export default  routes;

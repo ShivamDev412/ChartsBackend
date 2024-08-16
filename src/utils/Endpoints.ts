@@ -4,7 +4,7 @@ const ENDPOINTS = {
     DONUT: '/donut',
     WORD_CLOUD: '/word-cloud',
     STACKED: '/stacked-area',
-    VIOLIN: '/violin',
+    SCATTER_PLOT: '/scatter-plot',
     LINE: '/line'
 }
 export default ENDPOINTS;

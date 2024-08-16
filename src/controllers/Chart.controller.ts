@@ -2,6 +2,7 @@ import { Request, Response } from "express";
 import {
   DonutChartData,
   SankeyChartData,
+  ScatterPlotData,
   StreamGraphData,
   WordCloudData,
 } from "../utils/Constant";
@@ -57,11 +58,11 @@ class ChartController {
       res.status(500).send({ message: "Internal server error" });
     }
   }
-  getViolinChart(req: Request, res: Response) {
+  getScatterPlot(req: Request, res: Response) {
     try {
       res.status(200).send({
         success: true,
-        data: StreamGraphData,
+        data: ScatterPlotData,
       });
     } catch (error) {
       res.status(500).send({ message: "Internal server error" });

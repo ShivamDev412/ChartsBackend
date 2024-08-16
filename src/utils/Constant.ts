@@ -188,89 +188,30 @@ const LineChartData = {
     { month: "2023-12", Laptops: 410000, Smartphones: 455000, Tablets: 370000 },
   ],
 };
-const ViolinChartData = {
-  title: "Salary Distribution Across Job Roles and Countries in a Tech Company",
-  data: {
-    USA: {
-      "Software Engineer": [
-        90000, 95000, 98000, 100000, 102000, 105000, 110000, 115000, 118000,
-        120000, 123000, 125000, 127000, 130000, 132000, 135000, 138000, 140000,
-        145000, 150000,
-      ],
-      "Data Scientist": [
-        100000, 105000, 108000, 110000, 112000, 115000, 118000, 120000, 123000,
-        125000, 128000, 130000, 135000, 138000, 140000, 145000, 148000, 150000,
-        155000, 160000,
-      ],
-      "Product Manager": [
-        120000, 125000, 128000, 130000, 133000, 135000, 138000, 140000, 145000,
-        148000, 150000, 155000, 158000, 160000, 165000, 168000, 170000, 175000,
-        180000, 185000,
-      ],
-      "DevOps Engineer": [
-        95000, 100000, 103000, 105000, 108000, 110000, 115000, 118000, 120000,
-        123000, 125000, 128000, 130000, 133000, 135000, 138000, 140000, 143000,
-        145000, 148000,
-      ],
-      "UX Designer": [
-        80000, 85000, 88000, 90000, 92000, 95000, 98000, 100000, 102000, 105000,
-        108000, 110000, 112000, 115000, 118000, 120000, 123000, 125000, 128000,
-        130000,
-      ],
-    },
-    Germany: {
-      "Software Engineer": [
-        70000, 72000, 75000, 78000, 80000, 82000, 85000, 87000, 90000, 93000,
-        95000, 97000, 100000, 102000, 105000, 108000, 110000, 113000, 115000,
-        118000,
-      ],
-      "Data Scientist": [
-        80000, 85000, 88000, 90000, 92000, 95000, 98000, 100000, 103000, 105000,
-        108000, 110000, 113000, 115000, 118000, 120000, 123000, 125000, 128000,
-        130000,
-      ],
-      "Product Manager": [
-        90000, 95000, 98000, 100000, 102000, 105000, 108000, 110000, 113000,
-        115000, 118000, 120000, 123000, 125000, 128000, 130000, 133000, 135000,
-        138000, 140000,
-      ],
-      "DevOps Engineer": [
-        75000, 80000, 83000, 85000, 87000, 90000, 93000, 95000, 97000, 100000,
-        103000, 105000, 108000, 110000, 113000, 115000, 118000, 120000, 123000,
-        125000,
-      ],
-      "UX Designer": [
-        60000, 62000, 65000, 67000, 70000, 73000, 75000, 78000, 80000, 82000,
-        85000, 87000, 90000, 92000, 95000, 97000, 100000, 102000, 105000,
-        108000,
-      ],
-    },
-    India: {
-      "Software Engineer": [
-        50000, 52000, 55000, 58000, 60000, 62000, 65000, 67000, 70000, 73000,
-        75000, 78000, 80000, 82000, 85000, 87000, 90000, 93000, 95000, 98000,
-      ],
-      "Data Scientist": [
-        60000, 65000, 68000, 70000, 72000, 75000, 78000, 80000, 83000, 85000,
-        88000, 90000, 93000, 95000, 98000, 100000, 103000, 105000, 108000,
-        110000,
-      ],
-      "Product Manager": [
-        70000, 75000, 78000, 80000, 82000, 85000, 88000, 90000, 93000, 95000,
-        98000, 100000, 103000, 105000, 108000, 110000, 113000, 115000, 118000,
-        120000,
-      ],
-      "DevOps Engineer": [
-        55000, 60000, 63000, 65000, 67000, 70000, 73000, 75000, 77000, 80000,
-        83000, 85000, 88000, 90000, 93000, 95000, 98000, 100000, 103000, 105000,
-      ],
-      "UX Designer": [
-        40000, 42000, 45000, 47000, 50000, 53000, 55000, 58000, 60000, 62000,
-        65000, 67000, 70000, 73000, 75000, 78000, 80000, 82000, 85000, 87000,
-      ],
-    },
-  },
+const ScatterPlotData = {
+  title: "Experience vs. Salary Across Job Roles and Countries in a Tech Company",
+  data: [
+    { country: "USA", role: "Software Engineer", experience: 2, salary: 90000 },
+    { country: "USA", role: "Software Engineer", experience: 5, salary: 115000 },
+    { country: "USA", role: "Software Engineer", experience: 10, salary: 145000 },
+    { country: "Germany", role: "Software Engineer", experience: 2, salary: 70000 },
+    { country: "Germany", role: "Software Engineer", experience: 5, salary: 90000 },
+    { country: "Germany", role: "Software Engineer", experience: 10, salary: 118000 },
+    { country: "India", role: "Software Engineer", experience: 2, salary: 50000 },
+    { country: "India", role: "Software Engineer", experience: 5, salary: 70000 },
+    { country: "India", role: "Software Engineer", experience: 10, salary: 98000 },
+    { country: "USA", role: "Data Scientist", experience: 2, salary: 105000 },
+    { country: "USA", role: "Data Scientist", experience: 5, salary: 135000 },
+    { country: "USA", role: "Data Scientist", experience: 10, salary: 160000 },
+    { country: "Germany", role: "Data Scientist", experience: 2, salary: 85000 },
+    { country: "Germany", role: "Data Scientist", experience: 5, salary: 108000 },
+    { country: "Germany", role: "Data Scientist", experience: 10, salary: 130000 },
+    { country: "India", role: "Data Scientist", experience: 2, salary: 65000 },
+    { country: "India", role: "Data Scientist", experience: 5, salary: 93000 },
+    { country: "India", role: "Data Scientist", experience: 10, salary: 110000 },
+  ],
 };
+
 
 export {
   SankeyChartData,
@@ -278,5 +219,5 @@ export {
   WordCloudData,
   StreamGraphData,
   LineChartData,
-  ViolinChartData,
+  ScatterPlotData,
 };
