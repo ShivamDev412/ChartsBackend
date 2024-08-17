@@ -40,7 +40,7 @@ const swaggerDocs = swaggerJsdoc(swaggerOptions);
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
 // Routes
-app.use("/api/v1" + BASE_ROUTE, chartsRoutes);
+app.use(BASE_ROUTE, chartsRoutes);
 
 app.listen(PORT, () => {
   console.clear();
