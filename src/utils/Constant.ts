@@ -189,29 +189,89 @@ const LineChartData = {
   ],
 };
 const ScatterPlotData = {
-  title: "Experience vs. Salary Across Job Roles and Countries in a Tech Company",
+  title:
+    "Experience vs. Salary Across Job Roles and Countries in a Tech Company",
   data: [
     { country: "USA", role: "Software Engineer", experience: 2, salary: 90000 },
-    { country: "USA", role: "Software Engineer", experience: 5, salary: 115000 },
-    { country: "USA", role: "Software Engineer", experience: 10, salary: 145000 },
-    { country: "Germany", role: "Software Engineer", experience: 2, salary: 70000 },
-    { country: "Germany", role: "Software Engineer", experience: 5, salary: 90000 },
-    { country: "Germany", role: "Software Engineer", experience: 10, salary: 118000 },
-    { country: "India", role: "Software Engineer", experience: 2, salary: 50000 },
-    { country: "India", role: "Software Engineer", experience: 5, salary: 70000 },
-    { country: "India", role: "Software Engineer", experience: 10, salary: 98000 },
+    {
+      country: "USA",
+      role: "Software Engineer",
+      experience: 5,
+      salary: 115000,
+    },
+    {
+      country: "USA",
+      role: "Software Engineer",
+      experience: 10,
+      salary: 145000,
+    },
+    {
+      country: "Germany",
+      role: "Software Engineer",
+      experience: 2,
+      salary: 70000,
+    },
+    {
+      country: "Germany",
+      role: "Software Engineer",
+      experience: 5,
+      salary: 90000,
+    },
+    {
+      country: "Germany",
+      role: "Software Engineer",
+      experience: 10,
+      salary: 118000,
+    },
+    {
+      country: "India",
+      role: "Software Engineer",
+      experience: 2,
+      salary: 50000,
+    },
+    {
+      country: "India",
+      role: "Software Engineer",
+      experience: 5,
+      salary: 70000,
+    },
+    {
+      country: "India",
+      role: "Software Engineer",
+      experience: 10,
+      salary: 98000,
+    },
     { country: "USA", role: "Data Scientist", experience: 2, salary: 105000 },
     { country: "USA", role: "Data Scientist", experience: 5, salary: 135000 },
     { country: "USA", role: "Data Scientist", experience: 10, salary: 160000 },
-    { country: "Germany", role: "Data Scientist", experience: 2, salary: 85000 },
-    { country: "Germany", role: "Data Scientist", experience: 5, salary: 108000 },
-    { country: "Germany", role: "Data Scientist", experience: 10, salary: 130000 },
+    {
+      country: "Germany",
+      role: "Data Scientist",
+      experience: 2,
+      salary: 85000,
+    },
+    {
+      country: "Germany",
+      role: "Data Scientist",
+      experience: 5,
+      salary: 108000,
+    },
+    {
+      country: "Germany",
+      role: "Data Scientist",
+      experience: 10,
+      salary: 130000,
+    },
     { country: "India", role: "Data Scientist", experience: 2, salary: 65000 },
     { country: "India", role: "Data Scientist", experience: 5, salary: 93000 },
-    { country: "India", role: "Data Scientist", experience: 10, salary: 110000 },
+    {
+      country: "India",
+      role: "Data Scientist",
+      experience: 10,
+      salary: 110000,
+    },
   ],
 };
-
 
 export {
   SankeyChartData,
