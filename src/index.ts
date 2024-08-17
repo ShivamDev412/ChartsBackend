@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
-// Swagger definition
+// Swagger definition 
 const swaggerOptions = {
   definition: {
     openapi: "3.0.0",
@@ -40,7 +40,7 @@ const swaggerDocs = swaggerJsdoc(swaggerOptions);
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
 // Routes
-app.use(BASE_ROUTE, chartsRoutes);
+app.use("/api/v1" + BASE_ROUTE, chartsRoutes);
 
 app.listen(PORT, () => {
   console.clear();
